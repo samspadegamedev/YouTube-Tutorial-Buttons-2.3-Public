@@ -4,10 +4,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "button_parent",
-    "path": "objects/button_parent/button_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"parent":{"name":"tap_button_parent","path":"objects/tap_button_parent/tap_button_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"mouse_manager","path":"objects/mouse_manager/mouse_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"mouse_manager","path":"objects/mouse_manager/mouse_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "Mouse Manager",
+    "path": "folders/Objects/Mouse Manager.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tap_button_parent",
+  "name": "mouse_manager",
   "tags": [],
   "resourceType": "GMObject",
 }
