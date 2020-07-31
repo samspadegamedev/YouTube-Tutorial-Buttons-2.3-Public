@@ -1,6 +1,6 @@
 /// @description Updated Selected - Button Parent
 
-var prev_selected  selected;
+var prev_selected = selected;
 
 if (!button_is_selected()) {
 	selected = (return_button_id() == id);
