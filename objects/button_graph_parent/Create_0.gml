@@ -33,6 +33,19 @@ add_edge = function(_button_a, _direction, _button_b, _two_ways) {
 traverse = function(_direction) {
 	if (button_graph[? position][? _direction] != undefined) {
 	    position = button_graph[? position][? _direction];
+		update_buttons(position);
 	    show_debug_message(position);
 	}
 }
+
+keyboard_interact = function () {
+	with (button_parent) {
+		if (my_name == other.position) {
+			interact();
+			break;
+		}
+	}
+}
+
+
+alarm[0] = 1;

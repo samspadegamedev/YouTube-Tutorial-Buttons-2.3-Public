@@ -4,6 +4,7 @@
     {"id":{"name":"obj_toggle_button","path":"objects/obj_toggle_button/obj_toggle_button.yy",},"order":7,},
     {"id":{"name":"grabable_parent","path":"objects/grabable_parent/grabable_parent.yy",},"order":3,},
     {"id":{"name":"tap_button_parent","path":"objects/tap_button_parent/tap_button_parent.yy",},"order":1,},
+    {"id":{"name":"obj_main_menu_button_graph","path":"objects/obj_main_menu_button_graph/obj_main_menu_button_graph.yy",},"order":2,},
     {"id":{"name":"snd_active","path":"sounds/snd_active/snd_active.yy",},"order":2,},
     {"id":{"name":"button_graph_parent","path":"objects/button_graph_parent/button_graph_parent.yy",},"order":0,},
     {"id":{"name":"spr_toggle_button","path":"sprites/spr_toggle_button/spr_toggle_button.yy",},"order":2,},

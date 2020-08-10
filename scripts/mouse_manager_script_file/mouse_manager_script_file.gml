@@ -21,3 +21,11 @@ function set_button_selected(_selected) {
 	}
 }
 
+
+function update_buttons(_selected) {
+	with (button_parent) {
+		selected = _selected == my_name;
+	}
+}
+	
+	

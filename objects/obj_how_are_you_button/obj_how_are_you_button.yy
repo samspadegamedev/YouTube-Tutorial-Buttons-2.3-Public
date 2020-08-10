@@ -27,7 +27,9 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_how_are_you_button","path":"objects/obj_how_are_you_button/obj_how_are_you_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"my_name","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"\"How are you?\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Buttons",
     "path": "folders/Objects/Buttons.yy",

@@ -1,6 +1,8 @@
 /// @description Button Parent
 
 
+prev_selected = false;
+
 interact = function() {
 	if (active) {
 		if (active_sound != noone) audio_play_sound(active_sound, 1, false);

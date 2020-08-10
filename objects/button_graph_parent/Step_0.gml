@@ -14,5 +14,7 @@ if (keyboard_check_pressed(vk_right)) {
     traverse("Right");
 }
 
-
+if (keyboard_check_pressed(vk_space)) {
+	keyboard_interact();
+}
 

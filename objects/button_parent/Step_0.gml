@@ -1,15 +1,7 @@
 /// @description Updated Selected - Button Parent
 
-var prev_selected = selected;
-
-if (!button_is_selected()) {
-	selected = (return_button_id() == id);
-} else if (return_button_id() != id) {
-	selected = false;
-}
 
 if (prev_selected != selected) {
-	set_button_selected(selected);
 	if (selected) {
 		image_xscale = 1.2;
 		image_yscale = 1.2;
@@ -20,3 +12,4 @@ if (prev_selected != selected) {
 	}
 }
 
+prev_selected = selected;
